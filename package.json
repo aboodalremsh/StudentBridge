@@ -1,0 +1,14 @@
+{
+  "name": "studentbridge-v2",
+  "version": "2.0.0",
+  "description": "StudentBridge v2.0 — Full-stack graduation project",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
