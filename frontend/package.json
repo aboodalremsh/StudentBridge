@@ -1,6 +1,7 @@
 {
   "name": "studentbridge-frontend",
   "version": "2.0.0",
+  "homepage": "https://aboodalremsh.github.io/StudentBridge",
   "private": true,
   "dependencies": {
     "axios": "^1.6.2",
@@ -24,5 +25,8 @@
     "development": [
       "last 1 chrome version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
